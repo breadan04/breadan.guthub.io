@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    background-color: cornsilk;
+    font-family: 'Caveat', cursive;
+    height: 100%;
+    width: 100%;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+/* Хэддер */
+
+.headder {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    height: 180px;
+    width: 220px;
+}
+
+.tel-number {
+    font-size: 30px;
+    margin: 30px;
+}
+ 
+.nav {
+    margin: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 32px;
+    color: black;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.nav-bar:hover {
+    background-color: #ededed; 
+    box-shadow: 1px 1px black;
+    transition: 0.5s;
+}
+
+.user-profile {
+    margin-right: 50px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+/* Контейнер-боди */
+
+.container-body {
+    height: 600px;
+    width: 100%;
+    background-image: url(../../images/shapka2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.body-content {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    border: 4px white dashed;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-title {
+    font-size: 54px;
+    color: white;
+    text-align: center;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+/* О нас */
+
+.about-us {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-number {
+    font-size: 36px;
+    margin: 0px 60px; 
+}
+
+.adress {
+    font-size: 36px;
+    margin: 0px 60px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+/* Футер */
+
+.footer {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #2b2b2b; 
+    color: white;
+    font-size: 26px;
+    padding: 30px 0px;
+}
+
+.footer-txt {
+    margin: 30px 50px;
+}
